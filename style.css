@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'inter';
+    src: url(Inter_18pt-Light.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'inter';
+}
+
+.mainHeading {
+    background: #F3D5A6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+.mainHeading .logo img {
+    width: 60px;
+    height: auto;
+}
+
+.mainHeading .headingNav h4 {
+    margin: 0;
+    color: #751113;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.mainHeading .headingNav p {
+    margin: 0;
+    color: #E41839;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.mainHeading .headingNav p a {
+    margin: 0;
+    color: #E41839;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.mainImgbody img {
+    width: 100%;
+    height: auto;
+}
+
+.btmBodypst {
+    position: relative;
+}
+
+.btmBodypst img {
+    width: 100%;
+    height: 500px;
+}
+
+.pstBoxTable {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+}
+
+.pstBoxTable h4 {
+    color: #751113;
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.pstBoxTable .leftrightDate {
+    display: flex;
+    padding: 0px 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cursorPointer {
+    cursor: pointer;
+}
+
+.pstBoxTable .leftrightDate .dtBtn {
+    background: #F7E2C0;
+    color: #751113;
+    padding: 10px 30px;
+    border: 1px solid #D18B18;
+    font-size: 16px;
+    cursor: pointer;
+    overflow: none;
+}
+
+.pstBoxTable .tablereports {
+    margin: 10px;
+    padding: 10px 40px;
+}
+
+.pstBoxTable .tablereports table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tablebodyContain {
+    color: #771113;
+    font-size: 16px;
+    border-bottom: 1px solid #BDBDBD;
+    padding: 8px 0;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .mainHeading .logo img {
+        width: 50px;
+        height: auto;
+    }
+
+    .headingNav {
+        margin: 0 5px;
+    }
+
+    .mainHeading .headingNav h4 {
+        font-size: 14px;
+    }
+
+    .mainHeading .headingNav p {
+        font-size: 12px;
+    }
+
+    .mainHeading .headingNav p a {
+        font-size: 12px;
+    }
+    .pstBoxTable {
+        top: 12px;
+    }
+
+    .pstBoxTable h4 {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+    .pstBoxTable .leftrightDate {
+        padding: 0px 20px;
+    }
+    .pstBoxTable .tablereports {
+        margin: 10px;
+        padding: 10px 15px;
+    }
+}
